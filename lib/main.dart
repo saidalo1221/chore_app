@@ -738,7 +738,7 @@ class _PinDialogState extends State<PinDialog> {
   final TextEditingController _controller = TextEditingController();
   String? _error;
 
-  static const String _correctPin = '1234';
+  static const String _correctPin = '1988';
 
   void _submit() {
     if (_controller.text.trim() == _correctPin) {
