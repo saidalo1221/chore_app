@@ -1,0 +1,6 @@
+include ':app'
+
+local_engine_repo_dir = System.getenv('LOCAL_ENGINE_REPO_DIR')
+if (local_engine_repo_dir != null) {
+    includeBuild(local_engine_repo_dir)
+}
