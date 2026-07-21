@@ -23,6 +23,9 @@ jobs:
         with:
           channel: 'stable'
 
+      - name: Recreate Android Project Files
+        run: flutter create . --platforms=android --overwrite
+
       - name: Install dependencies
         run: flutter pub get
 
